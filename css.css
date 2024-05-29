@@ -1,0 +1,37 @@
+body{
+    background-color:aquamarine;
+
+}
+.container {
+    display: flex;
+    background-color: white;
+    height: 80vh;
+    width: 100vh;
+    margin-left: 320px;
+    margin-top: 100px;
+}
+.top {
+    display: flex;
+    color:green;
+    position: relative;
+    top: 5px;
+    left:490px;
+}
+.left {
+    display: flex;
+    background-color: greenyellow;
+    height: 535px;
+    width: 100px;
+    position: absolute;
+    top: 70px;
+    left: 380px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.main {
+    /* border: 1px solid red; */
+    height: 485px;
+    width: 400px;
+    position: relative;
+    left: 70px;
+}
